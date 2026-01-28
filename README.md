@@ -18,7 +18,7 @@ Skills are reusable prompt templates that extend Claude Code's capabilities. The
 
 ```bash
 # Clone this repository
-git clone https://github.com/yourusername/claude-skills.git
+git clone https://github.com/ericwholt/claude-skills.git
 
 # Copy the skill(s) you want to your Claude Code skills directory
 cp -r claude-skills/csharp-tips ~/.claude/skills/
@@ -27,7 +27,7 @@ cp -r claude-skills/csharp-tips ~/.claude/skills/
 ### Option 2: Symlink (recommended for updates)
 
 ```bash
-git clone https://github.com/yourusername/claude-skills.git ~/claude-skills
+git clone https://github.com/ericwholt/claude-skills.git ~/claude-skills
 
 # Symlink individual skills
 ln -s ~/claude-skills/csharp-tips ~/.claude/skills/csharp-tips
