@@ -6,6 +6,7 @@ description: |
   - Asking about C# patterns, async, LINQ, EF Core
   - Optimizing performance or memory usage
   - Learning modern C# and .NET features
+argument-hint: <keyword>
 user-invocable: true
 ---
 
@@ -43,8 +44,8 @@ A curated collection of 200 C# tips covering:
 
 **Query:** $ARGUMENTS
 
-### Matching Tips:
-!`grep -i "$ARGUMENTS" "$(dirname "$SKILL_PATH")/csharp-tips.csv" | head -25`
+### Instructions for Claude:
+Use the Grep tool to search for "$ARGUMENTS" (case-insensitive) in the `csharp-tips.csv` file located in this skill's directory. Return up to 25 matching lines. Format the results clearly, showing tip number, title, and description.
 
 ## Quick Reference
 
